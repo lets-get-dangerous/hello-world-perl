@@ -1,4 +1,4 @@
-# "Hello world" in perl
+# Obfuscating "Hello world!" in perl
 
 This example shows some of the features of Perl.
 

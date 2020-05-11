@@ -64,14 +64,14 @@
 
     print uc q aha, qq aello, world!\na
 
-если заменить оператор q на кавычки, то строка выглядит так:
+если заменить оператор q на кавычки, то переменная $_ будет выглядеть так:
 
     print uc 'h', "ello, world!\n"
 
-print по умолчанию печатает в STDOUT, uc - "uppercase", по умолчанию работает с переменной $_.
-
-Флаг "ee" в операторе "s" - [eval](https://perldoc.perl.org/perlop.html#s%2f_PATTERN_%2f_REPLACEMENT_%2fmsixpodualngcer)
+"s" по умолчанию работает с переменной $_ , 
+    флаг "ee" в операторе  - [eval](https://perldoc.perl.org/perlop.html#s%2f_PATTERN_%2f_REPLACEMENT_%2fmsixpodualngcer)
 приведет к вычислению выражения
 
     print uc 'h', "ello, world!\n"
     
+print по умолчанию печатает в STDOUT, uc - "uppercase"

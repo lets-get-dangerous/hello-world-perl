@@ -68,10 +68,8 @@
 
     print uc 'h', "ello, world!\n"
 
-"s" по умолчанию работает с переменной $_ , 
-    флаг "ee" в операторе  - [eval](https://perldoc.perl.org/perlop.html#s%2f_PATTERN_%2f_REPLACEMENT_%2fmsixpodualngcer)
+"s" также, по умолчанию, обрабатывает $_ , 
+флаг "ee" в операторе  - [eval](https://perldoc.perl.org/perlop.html#s%2f_PATTERN_%2f_REPLACEMENT_%2fmsixpodualngcer)
 приведет к вычислению выражения
-
-    print uc 'h', "ello, world!\n"
     
-print по умолчанию печатает в STDOUT, uc - "uppercase"
+print если не укзазано, печатает в STDOUT, uc - "uppercase"
